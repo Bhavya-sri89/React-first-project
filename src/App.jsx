@@ -28,7 +28,7 @@ function App()
     <Link to='/nonveg'className="myclass"><i className="fas fa-drumstick-bite"></i>NonvegItems</Link>
     <Link to='/cart'className="myclass"><i className="fas fa-cart"></i>Cart<span>{totalItems}</span></Link>
     <Link to='/orders'className="myclass"><i className="fas fa-orders"></i>Orders</Link>
-    <Link to='/aboutus'className="myclass"><i className="fas fa-aboutus"></i>Aboutus</Link>
+    <Link to='/aboutus'className="myclass">Aboutus</Link>
     <Link to='/contactus'className="myclass"><i className="fas fa-contactus"></i>Contactus</Link>
 
     {isAuthenticated ? (
