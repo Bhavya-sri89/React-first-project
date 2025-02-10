@@ -1,9 +1,8 @@
-function Aboutus()
+function AboutUs()
 {
     return(
-        
-        <h2>This is aboutus.jsx file</h2>
-        
+        <h1>Aboutus file</h1>
     )
+
 }
-export default Aboutus;
+export default AboutUs;
