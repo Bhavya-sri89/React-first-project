@@ -26,10 +26,11 @@ function Login()
         <input type="text" ref={username} />
         <br/>
         <br/>
-        <button type="password" ref={password} />
+        <label>Password:</label>
+        <input type="Password" ref={password} />
         <br/>
         <br/>
-        <button type="submit" onClick={loginCheck()}>
+        <button type="submit" onClick={loginCheck}>
             Login
         </button>
         </>

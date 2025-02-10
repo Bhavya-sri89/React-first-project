@@ -76,6 +76,7 @@ import { useDispatch, useSelector } from "react-redux";
 import NotFound from "./NotFound";
 import { logout } from "./Store"; // Ensure you import the logout action from your store
 import AboutUs from "./AboutUs";
+import Login from "./Login";
 
 function App() {
   const CartItems = useSelector((state) => state.Cart);
@@ -132,6 +133,7 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<Contactus />} />
+          <Route path="/login" element={<Login/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
