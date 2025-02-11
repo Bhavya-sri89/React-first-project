@@ -75,8 +75,9 @@ import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
 import NotFound from "./NotFound";
 import { logout } from "./Store"; // Ensure you import the logout action from your store
-import AboutUs from "./AboutUs";
+
 import Login from "./Login";
+import AboutUs from "./AboutUs";
 
 function App() {
   const CartItems = useSelector((state) => state.Cart);
