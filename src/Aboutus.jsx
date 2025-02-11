@@ -1,7 +1,7 @@
 function AboutUs()
 {
     return(
-        <h1>Aboutus file</h1>
+        <h1>contact</h1>
     )
 
 }
