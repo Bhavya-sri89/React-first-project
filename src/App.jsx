@@ -77,7 +77,7 @@ import NotFound from "./NotFound";
 import { logout } from "./Store"; // Ensure you import the logout action from your store
 
 import Login from "./Login";
-import AboutUs from "./AboutUs";
+// import AboutUs from "./AboutUs";
 
 function App() {
   const CartItems = useSelector((state) => state.Cart);
@@ -107,9 +107,9 @@ function App() {
           <Link to="/orders" className="myclass">
             Orders
           </Link>
-          <Link to="/aboutus" className="myclass">
+          {/* <Link to="/aboutus" className="myclass">
             AboutUs
-          </Link>
+          </Link> */}
           <Link to="/contactus" className="myclass">
             Contactus
           </Link>
@@ -132,7 +132,7 @@ function App() {
           <Route path="/nonveg" element={<Nonveg />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/orders" element={<Orders />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          {/* <Route path="/aboutus" element={<AboutUs />} /> */}
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/login" element={<Login/>} />
           <Route path="*" element={<NotFound />} />
