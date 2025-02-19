@@ -77,6 +77,7 @@ import NotFound from "./NotFound";
 import { logout } from "./Store"; // Ensure you import the logout action from your store
 
 import Login from "./Login";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import AboutUs from "./AboutUs";
 
 function App() {
@@ -92,7 +93,7 @@ function App() {
     <>
       <BrowserRouter>
         <nav>
-          <Link to="/home" className="myclass">
+          <Link to="/home" className="myclass"><i className="fa-solid fa-house"></i>
             Home
           </Link>
           <Link to="/veg" className="myclass">
