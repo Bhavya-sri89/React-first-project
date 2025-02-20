@@ -11,14 +11,18 @@ import { startTransition } from "react";
             Veg:[
             {image:"https://up.yimg.com/ib/th?id=OIP.UkqPOqRR1u2um3m3dhgjxgHaEo&pid=Api&rs=1&c=1&qlt=95&w=164&h=102",name:"Tomoto",price:"200.5"},
             {image:"https://up.yimg.com/ib/th?id=OIP.bmUHO4yWWHjMYeT6jV5NlAHaE7&pid=Api&rs=1&c=1&qlt=95&w=168&h=111",name:"panner",price:"100.0"},
-            {image:"https://tse3.mm.bing.net/th?id=OIP.Xpwws_N3CK74eQuy7kq_kwHaFc&pid=Api&P=0&h=180",name:"carrot",price:"150.5"},   
+            {image:"https://tse3.mm.bing.net/th?id=OIP.Xpwws_N3CK74eQuy7kq_kwHaFc&pid=Api&P=0&h=180",name:"carrot",price:"150.5"},  
             {image:"https://tse3.mm.bing.net/th?id=OIP.gFx6NiKHARprKWoPaUasoQHaFd&pid=Api&P=0&h=180",name:"onion",price:"50.8"},
             {image:"https://tse1.mm.bing.net/th?id=OIP.NpF4-3oEpS3dG828WiWERQHaE8&pid=Api&P=0&h=180",name:"potato",price:"40.5"}
         ],
         Nonveg:[
-            {image:"https://tse3.mm.bing.net/th?id=OIP.rernnFNv0m3HEcnMJMvQdgHaEK&pid=Api&P=0&h=180",name:'chinken' , price:200.5},
-            {image:"https://tse2.mm.bing.net/th?id=OIP.7Z9wv6AweGnVJIvCrOwuiwHaFj&pid=Api&P=0&h=180",name:'fish' , price:200.5},
-            {image:"https://www.thespruceeats.com/thmb/6C_AB-LpucKkVa4L5IQHfHEYyXc=/3008x0/filters:no_upscale():max_bytes(150000):strip_icc()/JMTalbott-466838246c734494b30bcf47b633e116.jpg",name:'mutton' , price:200.5}
+            {image:"https://tse3.mm.bing.net/th?id=OIP.rernnFNv0m3HEcnMJMvQdgHaEK&pid=Api&P=0&h=180",name:'Chicken',price:200.5},
+            {image:"https://tse2.mm.bing.net/th?id=OIP.7Z9wv6AweGnVJIvCrOwuiwHaFj&pid=Api&P=0&h=180",name:'Fish',price:200.5},
+            {image:"https://www.thespruceeats.com/thmb/6C_AB-LpucKkVa4L5IQHfHEYyXc=/3008x0/filters:no_upscale():max_bytes(150000):strip_icc()/JMTalbott-466838246c734494b30bcf47b633e116.jpg",name:'Mutton',price:200.5},
+            {image:"https://wallpapercave.com/wp/wp8329271.jpg",name:"Biryani",price:"250.4"},
+            {image:"https://tse2.mm.bing.net/th?id=OIP.fGKew7Pzg3swdrkrHeQLogHaEK&pid=Api&P=0&h=180",name:"Chicken65",price:"100"},
+            {image:"https://tse1.mm.bing.net/th?id=OIP.tM-3dL5c1BYo55QLOps2XwAAAA&pid=Api&P=0&h=180",name:"KFC",price:"280.9"},
+            {image:"https://tse2.mm.bing.net/th?id=OIP.VJGsljppMFqccugiSg_-TwHaEK&pid=Api&P=0&h=180",name:"Chicken Lollipop",price:"300.2"}
           ],
 
         },
@@ -116,18 +120,6 @@ const Store = configureStore(
         }
         
     });
-
-    
-    
-      
-   
-    
-
-    
-        
-    
-
-
 
 export const {addToCart,increament,discrement,remove,clearcart} = CartSlice.actions;
 export const { addpurchaseDetails} = purchaseDetailSlice.actions

@@ -93,7 +93,7 @@ function App() {
     <>
       <BrowserRouter>
         <nav>
-          <Link to="/home" className="myclass"><i className="fa-solid fa-house"></i>
+          <Link to="/home" className="myclass"><i className="fas fa-house"></i>
             Home
           </Link>
           <Link to="/veg" className="myclass">

@@ -231,6 +231,7 @@ function Cart() {
                             <p style={{ color: "greenyellow" }}>Your discount amount: ${discountAmount.toFixed(2)}</p>
                             <p>Discount applied: {couponcodeperApply ? 'Yes' : 'No'}</p>
                             <p>Coupon discount amount: ${couponcodeDiscountAmount.toFixed(2)}</p>
+
                         </div>
                     )}
 
@@ -253,6 +254,7 @@ function Cart() {
                         >
                             30% Discount
                         </button>
+            
                     </div>
 
                     <div>
